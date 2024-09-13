@@ -1,0 +1,6 @@
+Model,Best parameters,Train score,Test score
+LR,"{'model__solver': 'liblinear', 'model__penalty': 'l2', 'model__C': 206.913808111479}",0.8963210702341137,0.92
+KNN,{'model__n_neighbors': 5},0.8996655518394648,0.8933333333333333
+SVC Linear,{'model__C': 0.23357214690901212},0.882943143812709,0.92
+SVC rbf,"{'model__gamma': 'scale', 'model__C': 11.288378916846883}",0.9264214046822743,0.9333333333333333
+Random Forest,"{'model__n_estimators': 451, 'model__min_samples_split': 6, 'model__min_samples_leaf': 1, 'model__max_depth': None}",0.9297658862876255,0.9333333333333333
